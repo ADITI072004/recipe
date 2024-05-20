@@ -24,10 +24,8 @@ function App() {
     const [fav, setfav] = useState([]);
 
 
-    const Id =process.env.REACT_APP_ID;
-    const key = process.env.REACT_APP_KEY;
-
-
+    const Id ="9acb4c2b";
+    const key = "eff1f4c3756cee486af4acdfacb46a00";
 
   useEffect(() => {
     onAuthStateChanged(auth, (user) => {
